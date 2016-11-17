@@ -18,8 +18,23 @@
     </category>
 
     <category>
-        <pattern></pattern>
+        <pattern>boring</pattern>
         <template><srai>JOKE</srai></template>>
+    </category>
+    
+    <category>
+        <pattern>^ bored ^</pattern>
+        <template><srai>JOKe</srai></template>>
+    </category>
+    
+    <category>
+        <pattern>^ fun ^</pattern>
+        <template><srai>JOKE</srai></template>>
+    </category>
+    
+    <category>
+        <pattern>^ crack a joke ^</pattern>
+        <template><srai></srai></template>>
     </category>
 
 <category>
