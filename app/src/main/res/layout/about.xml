@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/background_hd">
+
+    <TextView
+        android:layout_width="115dp"
+        android:layout_height="85dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" SIA"
+
+
+        android:id="@+id/textView"
+        android:textSize="50dp"
+        android:textColor="#009688"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Walchand College of Engineering, Sangli"
+        android:id="@+id/textView2"
+        android:fontFamily="sans-serif-light"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp" />
+
+    <android.support.v4.widget.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rg"
+        android:id="@+id/rg_id"
+        android:elevation="7dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fb_logo"
+        android:layout_alignTop="@+id/rg_in"
+        android:layout_alignRight="@+id/rg_id"
+        android:layout_alignEnd="@+id/rg_id"
+        android:id="@+id/rg_fb" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linkedin_logo"
+        android:elevation="7dp"
+        android:layout_marginTop="82dp"
+        android:id="@+id/rg_in"
+        android:layout_below="@+id/rg_id"
+        android:layout_alignLeft="@+id/rg_id"
+        android:layout_alignStart="@+id/rg_id" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sk"
+        android:id="@+id/sk_id"
+        android:layout_above="@+id/rg_in"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linkedin_logo_sk"
+        android:layout_alignTop="@+id/sk_fb"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:id="@+id/sk_in" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fb_logo_sk"
+        android:layout_alignTop="@+id/rg_fb"
+        android:layout_alignRight="@+id/sk_id"
+        android:layout_alignEnd="@+id/sk_id"
+        android:id="@+id/sk_fb" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/st"
+        android:id="@+id/st_id"
+        android:layout_above="@+id/rg_in"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linkedin_logo_st"
+        android:layout_alignTop="@+id/st_fb"
+        android:layout_alignLeft="@+id/st_id"
+        android:layout_alignStart="@+id/st_id"
+        android:id="@+id/st_in" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fb_logo_st"
+        android:id="@+id/st_fb"
+        android:layout_alignTop="@+id/sk_fb"
+        android:layout_alignRight="@+id/st_id"
+        android:layout_alignEnd="@+id/st_id" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Rushikesh"
+        android:id="@+id/textView3"
+        android:layout_alignLeft="@+id/rg_in"
+        android:layout_alignStart="@+id/rg_in"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/st_id"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Shubham"
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignLeft="@+id/sk_id"
+        android:layout_alignStart="@+id/sk_id"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Sagar"
+        android:id="@+id/textView5"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignRight="@+id/st_id"
+        android:layout_alignEnd="@+id/st_id"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Gaidhani"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Khandare"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tade"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Devloped @"
+
+        android:id="@+id/devloped"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SIA ( System Intelligent Assistant ) is a chatbot devloped for entertainment and academic related queries."
+        android:id="@+id/textView9"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/rg_id"
+        android:layout_alignStart="@+id/rg_id" />
+
+
+</RelativeLayout>

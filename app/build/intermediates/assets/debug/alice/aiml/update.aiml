@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>TEST DENORMALIZE</pattern>
+<template><think>
+<set var="x1">555 dash 1212</set>
+<set var="x2">drwallace at gmail dot com</set>
+<set var="x3">Lparen 3 star 7 point 3 rparen slash 4</set>
+</think>
+Denormalize <get var="x1"/> = <denormalize><get var="x1"/></denormalize><br/>
+Denormalize <get var="x2"/> = <denormalize><get var="x2"/></denormalize><br/>
+Denormalize <get var="x3"/> = <denormalize><get var="x3"/></denormalize><br/></template>
+</category>
+<category><pattern>TEST HTML</pattern>
+<template><h1>SIA 1.0.1</h1> <h2><em>Release</em> 1.0.1</h2></template>
+</category>
+<category><pattern>TEST HTML 2</pattern>
+<template><h2><b>SPACE</b> <em>between</em> <b>Words</b></h2>
+<b>SPACE</b> <em>between</em> <b>Words</b><br/>
+<p>This is a paragraph.  Second sentence.  Third sentence.</p>
+<p>New paragraph. <em>Another sentence.</em>  And another</p></template>
+</category>
+<category><pattern>BRAIN VERSION</pattern>
+<template>SIA 1.0.1 Release 1.0.1</template>
+</category>
+<category><pattern>TEST CRASH</pattern>
+<template><srai>TEST CRASH</srai></template>
+</category>
+<category><pattern>PROGRAM VERSION</pattern>
+<template>Program AB 0.0.6.24 beta -- AI Foundation Reference AIML 2.1 implementation</template>
+</category>
+<category><pattern>BRAIN BUILD</pattern>
+<template>Sat May 21 16:21:53 EDT 2016</template>
+</category>
+</aiml>

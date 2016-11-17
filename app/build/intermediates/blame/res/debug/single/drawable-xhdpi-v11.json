@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/build/intermediates/res/merged/debug/drawable-xhdpi-v11/ic_stat_notify_chat.png",
+        "source": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/res/drawable-xhdpi-v11/ic_stat_notify_chat.png"
+    },
+    {
+        "merged": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/build/intermediates/res/merged/debug/drawable-xhdpi-v11/ic_stat_reload.png",
+        "source": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/res/drawable-xhdpi-v11/ic_stat_reload.png"
+    },
+    {
+        "merged": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/build/intermediates/res/merged/debug/drawable-xhdpi-v11/ic_stat_loading.png",
+        "source": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/res/drawable-xhdpi-v11/ic_stat_loading.png"
+    },
+    {
+        "merged": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/build/intermediates/res/merged/debug/drawable-xhdpi-v11/ic_stat_stop.png",
+        "source": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/res/drawable-xhdpi-v11/ic_stat_stop.png"
+    }
+]

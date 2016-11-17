@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>TRANSCRIPT</pattern>
+<template>Sending transcript to <get name="email"/>.
+<oob><email><to><get name="email"/></to><subject>Transcript of <bot name="name"/> with <get name="name"/> on <date/></subject><body>
+<srai>DIALOG HISTORY</srai></body></email></oob></template>
+</category>
+<category><pattern>SEND BUG REPORT</pattern>
+<template>Sending transcript to callmom-info@pandorabots.com.
+<oob><email><to>callmom-info@pandorabots.com</to><subject>Transcript of <bot name="name"/> with <get name="name"/> on <date/></subject><body>
+<srai>DIALOG HISTORY</srai></body></email></oob></template>
+</category>
+<category><pattern>REPORT A PROBLEM</pattern>
+<template><oob><dialog><title>Would you like to send a bug report?</title><list><item>Yes</item><item>No</item></list></dialog></oob>
+To help the developers understand your problem, you can choose to send us a transcript of your recent conversation with CallMom.  You can add your own comments to the email message too.  Would you like to send a report?</template>
+</category>
+<category><pattern>YES</pattern><that>WOULD YOU LIKE TO SEND A REPORT</that>
+<template><srai>SEND BUG REPORT</srai></template>
+</category>
+<category><pattern>TEACH ME <set>language</set></pattern>
+<template><srai>LANGUAGE</srai> Let's try a searching for "learn <star/>". <oob><search>LEARN <star/></search></oob></template>
+</category>
+<category><pattern>CLEAR LOG</pattern>
+<template>Done. <oob><clear>log</clear></oob></template>
+</category>
+<category><pattern>*</pattern><that>WHAT WOULD YOU LIKE TO WRITE ON TWITTER</that>
+<template><srai>TWEET <star/></srai></template>
+</category>
+<category><pattern>SEND MAIL</pattern>
+<template><srai>SEND EMAIL</srai></template>
+</category>
+<category><pattern>SEND FEATURE REQUEST *</pattern>
+<template><think><set name="featurerequest"><star/></set></think> Click send to mail your feature request.  
+<oob><email><to>callmom-info@pandorabots.com</to><subject>Feature request <get name="featurerequest"/></subject><body>Dear CallMom developers, I'd like to request that you add this feature to the next version of CallMom: <get name="featurerequest"/>.  Sincerely, <get name="name"/></body></email></oob></template>
+</category>
+
+
+
+
+
+<category><pattern>PIZZA</pattern>
+<template>call dominos for that </template>
+</category>
+<category><pattern>WHERE ARE THE *</pattern>
+<template>I'm looking on the map. <oob><map><star/></map></oob></template>
+</category>
+<category><pattern>WHERE IS A *</pattern>
+<template>check the map for location </template>
+</category>
+<category><pattern>WHERE IS PASADENA</pattern>
+<template>Let me show you on the map. </template>
+</category>
+<category><pattern>WHERE IS *</pattern>
+<template> look on the map.</template>
+</category>
+
+
+<category><pattern>CALL 911</pattern>
+<template>Now dialing emergency services from your location.  <oob><dial>911</dial></oob></template>
+</category>
+
+
+<category><pattern>WHAT IS THE ADDRESS TO *</pattern>
+<template> try to find it on the google map first </template>
+</category>
+
+<category><pattern>GPS ON</pattern>
+<template>Use Settings to turn on GPS.</template>
+</category>
+<category><pattern>GPS OFF</pattern>
+<template>Use Settings to turn off GPS.</template>
+</category>
+
+<category><pattern>I WANT TO KILL MYSELF</pattern>
+<template>You should call Emergency Services.  <oob><dial>911</dial></oob></template>
+</category>
+</aiml>

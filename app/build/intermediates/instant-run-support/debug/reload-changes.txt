@@ -1,0 +1,2 @@
+CHANGED,/home/sia/Desktop/SIA/SIA_FINAL_APP/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/home/sia/Desktop/SIA/SIA_FINAL_APP/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/it/moondroid/chatbot/MainActivity$ResponseReceiver$override.class

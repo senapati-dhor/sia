@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:5:5-39:19
+MERGED from [com.android.support:support-v4:23.3.0] /home/sia/Desktop/SIA/SIA_FINAL_APP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:9:9-41
+	android:allowBackup
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:7:9-35
+	android:icon
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:8:9-45
+	android:theme
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:10:9-79
+	android:name
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:6:9-43
+activity#it.moondroid.chatbot.MainActivity
+ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:11:9-19:20
+	android:label
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:13:13-45
+	android:name
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:12:13-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:17:27-74
+activity#it.moondroid.chatbot.eliza.about
+ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:22:9-25:20
+	android:label
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:24:13-42
+	android:name
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:23:13-60
+service#it.moondroid.chatbot.LoadBrainService
+ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:31:9-33:39
+	android:exported
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:32:13-45
+service#it.moondroid.chatbot.BrainService
+ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:35:9-37:48
+	android:label
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:37:13-45
+	android:icon
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml:35:18-46
+uses-sdk
+INJECTED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v4:23.3.0] /home/sia/Desktop/SIA/SIA_FINAL_APP/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/AndroidManifest.xml

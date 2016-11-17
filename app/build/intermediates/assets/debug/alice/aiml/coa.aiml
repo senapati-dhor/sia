@@ -1,0 +1,522 @@
+<aiml version="2.0">
+
+    <category>
+        <pattern>^ Computer Organization and Architecture ^</pattern>
+        <template><srai>Computer Organization and Architecture</srai></template>>
+    </category>
+
+    <category>
+        <pattern>COA</pattern>
+        <template><srai>Computer Organization and Architecture</srai></template>>
+    </category>
+
+    <category>
+        <pattern>^ WHAT ^ COA ^ </pattern>
+        <template>Computer Architecture and Organisation is the study of internal working, structuring and implementation of a computer system. Architecture in computer system, same as anywhere else, refers to the externally visual attributes of the system.</template>
+    </category>
+    <category>
+        <pattern>^ DEFINE ^ COA ^ </pattern>
+        <template>^ WHAT ^ COA ^ </template>
+    </category>
+
+
+    <category>
+        <pattern>^ SYLLABUS ^ COA ^ </pattern>
+        <template>  Module 1.Fundamentals of computer design. Module 2.Data path and control path design. Module 3.Memory organization. Module 4.Multiprocessors. Module 5.Parallel computer modelsModule. 6.Multithreaded and dataflow architecture
+        </template>
+    </category>
+    <category>
+        <pattern>^ COA ^ SYLLABUS ^ </pattern>
+        <template><srai>^ SYLLABUS ^ COA ^</srai></template>
+    </category>
+
+
+    <category>
+        <pattern>Computer Organization and Architecture</pattern>
+        <template>Welcome to academics portal . You can questions related to COA .Type START COA to begin the COA</template>
+    </category>
+
+    <category>
+        <pattern>START COA</pattern>
+        <template>Ask queries regarding Computer Organization and Architecture </template>
+    </category>
+
+    <category>
+        <pattern>^ NUMBER OF SUBJECTS ^</pattern>
+        <template>There are total 8 Courses in SY IT SEM II </template>
+    </category>
+
+    <category>
+        <pattern>^ NUMBER OF COURSES ^</pattern>
+        <template><srai>^ NUMBER OF SUBJECTS ^</srai></template>
+    </category>
+
+    <category>
+        <pattern>^ NUMBER OF MODULES ^</pattern>
+        <template>There are total 6 modules</template>
+    </category>
+    <category>
+        <pattern>^ MANY ^ MODULES ^ COA ^ </pattern>
+        <template><srai>^ NUMBER OF MODULES ^</srai> </template>
+    </category>
+
+    <category>
+        <pattern>^ PREREQUISITE COURSES ^</pattern>
+        <template><random>
+            <li> Second year Information Technology Processor architecture course</li>
+            <li> You should have good knowledge of  Second year Information Technology Processor architecture course </li>
+        </random></template>
+    </category>
+    <category>
+        <pattern>^ PREREQUISITE COURSE ^</pattern>
+        <template><srai>^ PREREQUISITE COURSES ^</srai></template>
+    </category>
+    <category>
+        <pattern>* PREREQUISITE FOR COA ^</pattern>
+        <template><srai>^ PREREQUISITE COURSES ^</srai></template>
+    </category>
+    <category>
+        <pattern>* PREREQUISITES FOR COA ^</pattern>
+        <template><srai>^ PREREQUISITE COURSES ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CREDIT ^</pattern>
+        <template><srai>^ CREDITS ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CREDITS ^</pattern>
+        <template> Computer Organization and Architecture has 3 Credits </template>
+    </category>
+
+    <category>
+        <pattern>^ TEXTBOOKS ^ COA </pattern>
+        <template>
+            <random>
+                <li>John P. Hayes, “Computer architecture and organization”, McGraw-Hill International.</li>
+                <li>Michael J. Flynn, “Computer Architecture pipelined and parallel processor design”, Narosa publishing house, 1995.</li>
+                <li>John L Hennessy and David A Patterson, “Computer architecture a quantitative approach”, Harcourt Asia Pvt. Ltd, second edition, 1995.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TEXTBOOK ^ COA </pattern>
+        <template><srai>^ TEXTBOOKS ^ COA </srai></template>
+    </category>
+    <category>
+        <pattern>^ BOOKS ^ COA </pattern>
+        <template><srai>^ TEXTBOOKS ^ COA </srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ BOOKS ^</pattern>
+        <template><srai>^ TEXTBOOKS ^ COA </srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ TEXTBOOKS ^</pattern>
+        <template><srai>^ TEXTBOOKS ^ COA </srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ TEXTBOOK ^</pattern>
+        <template><srai>^ TEXTBOOKS ^ COA </srai></template>
+    </category>
+
+
+    <category>
+        <pattern>^ CO ^ COA </pattern>
+        <template><srai>^ COURSE OBJECTIVES ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ CO ^ </pattern>
+        <template><srai>^ COURSE OBJECTIVES ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COURSE OBJECTIVE ^ COA </pattern>
+        <template><srai>^ COURSE OBJECTIVES ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ COURSE OBJECTIVE ^</pattern>
+        <template><srai>^ COURSE OBJECTIVES ^</srai></template>
+    </category>
+
+    <category>
+        <pattern>^ COURSE OBJECTIVES ^</pattern>
+        <template>  1.Provide fundamental knowledge of processors architecture.
+                    2.Understand the memory organization.
+                    3.Understand the basic concepts parallel computer models.
+        </template>
+    </category>
+
+
+
+
+    <category>
+        <pattern>^ MODULE NUMBER ONE ^ COA ^</pattern>
+        <template>The title of Module 1 is "Fundamentals of computer design"</template>
+    </category>
+    <category>
+        <pattern>^ FIRST CHAPTER * COA ^</pattern>
+        <template><srai>^ MODULE NUMBER ONE ^ COA ^ </srai></template>
+    </category>
+    <category>
+        <pattern>^ MODULE ONE ^ COA ^</pattern>
+        <template><srai>^ MODULE NUMBER ONE ^ COA ^ </srai></template>
+    </category>
+    <category>
+        <pattern>^ MODULE 1 ^ COA ^</pattern>
+        <template><srai>^ MODULE NUMBER ONE ^ COA ^ </srai></template>
+    </category>
+    <category>
+        <pattern>^ FIRST MODULE ^ COA ^</pattern>
+        <template><srai>^ MODULE NUMBER ONE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern> ^ COA ^ MODULE ONE ^</pattern>
+        <template><srai>^ MODULE NUMBER ONE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ MODULE 1 ^ </pattern>
+        <template><srai>^ MODULE NUMBER ONE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ FIRST MODULE ^ </pattern>
+        <template><srai>^ MODULE NUMBER ONE ^ COA ^</srai></template>
+    </category>
+
+    <category>
+        <pattern>^ MODULE NUMBER TWO ^ COA ^ </pattern>
+        <template>data path and control path design</template>
+    </category>
+    <category>
+    <pattern>^ SECOND CHAPTER * COA ^</pattern>
+    <template><srai>^ MODULE NUMBER TWO ^ COA ^</srai></template>
+</category>
+    <category>
+        <pattern>^ COA ^ MODULE 2 ^</pattern>
+        <template><srai>^ MODULE NUMBER TWO ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ MODULE TWO ^</pattern>
+        <template><srai>^ MODULE NUMBER TWO ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ SECOND MODULE ^</pattern>
+        <template><srai>^ MODULE NUMBER TWO ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ MODULE 2 ^ COA ^ </pattern>
+        <template><srai>^ MODULE NUMBER TWO ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ MODULE TWO ^ COA ^</pattern>
+        <template><srai>^ MODULE NUMBER TWO ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ SECOND MODULE ^ COA ^</pattern>
+        <template><srai>^ MODULE NUMBER TWO ^ COA ^</srai></template>
+    </category>
+
+
+    <category>
+        <pattern>^ MODULE NUMBER THREE ^ COA ^</pattern>
+        <template>Memory organization</template>
+    </category>
+    <category>
+        <pattern>^ THIRD CHAPTER * COA ^</pattern>
+        <template><srai>^ MODULE NUMBER THREE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ MODULE 3 ^</pattern>
+        <template><srai>^ MODULE NUMBER THREE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ MODULE THREE ^</pattern>
+        <template><srai>^ MODULE NUMBER THREE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ THIRD MODULE ^</pattern>
+        <template><srai>^ MODULE NUMBER THREE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ MODULE 3 ^ COA ^ </pattern>
+        <template><srai>^ MODULE NUMBER THREE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ MODULE THREE ^ COA ^ </pattern>
+        <template><srai>^ MODULE NUMBER THREE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ THIRD MODULE ^ COA ^ </pattern>
+        <template><srai>^ MODULE NUMBER THREE ^ COA ^</srai></template>
+    </category>
+
+    <category>
+        <pattern>^ MODULE NUMBER FOUR ^ COA ^</pattern>
+        <template>Multiprocessors</template>
+    </category>
+    <category>
+        <pattern>^ FOURTH CHAPTER * COA ^</pattern>
+        <template><srai>^ MODULE NUMBER FOUR ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ MODULE 4 ^</pattern>
+        <template><srai>^ MODULE NUMBER FOUR ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ MODULE FOUR ^</pattern>
+        <template><srai>^ MODULE NUMBER FOUR ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ FOURTH MODULE ^</pattern>
+        <template><srai>^ MODULE NUMBER FOUR ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ MODULE 4 ^ COA ^ </pattern>
+        <template><srai>^ MODULE NUMBER FOUR ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ MODULE FOUR ^ COA ^ </pattern>
+        <template><srai>^ MODULE NUMBER FOUR ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ FOURTH MODULE ^ COA ^ </pattern>
+        <template><srai>^ MODULE NUMBER FOUR ^ COA ^</srai></template>
+    </category>
+
+    <category>
+        <pattern>^ MODULE NUMBER FIVE ^ COA ^</pattern>
+        <template>Parallel computer models</template>
+    </category>
+    <category>
+        <pattern>^ FIFTH CHAPTER * COA ^</pattern>
+        <template><srai>^ MODULE NUMBER FIVE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ MODULE 5 ^</pattern>
+        <template><srai>^ MODULE NUMBER FIVE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ MODULE FIVE ^</pattern>
+        <template><srai>^ MODULE NUMBER FIVE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ FIFTH MODULE ^</pattern>
+        <template><srai>^ MODULE NUMBER FIVE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ MODULE 5 ^ COA ^ </pattern>
+        <template><srai>^ MODULE NUMBER FIVE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ MODULE FIVE ^ COA ^ </pattern>
+        <template><srai>^ MODULE NUMBER FIVE ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ FIFTH MODULE ^ COA ^ </pattern>
+        <template><srai>^ MODULE NUMBER FIVE ^ COA ^</srai></template>
+    </category>
+
+    <category>
+        <pattern>^ MODULE NUMBER SIX ^ COA ^</pattern>
+        <template>Multithreaded and dataflow architecture</template>
+    </category>
+    <category>
+        <pattern>^ SIXTH CHAPTER * COA ^</pattern>
+        <template><srai>^ MODULE NUMBER SIX ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ MODULE 6 ^</pattern>
+        <template><srai>^ MODULE NUMBER SIX ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ MODULE SIX ^</pattern>
+        <template><srai>^ MODULE NUMBER SIX ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ SIXTH MODULE ^</pattern>
+        <template><srai>^ MODULE NUMBER SIX ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ MODULE 6 ^ COA ^ </pattern>
+        <template><srai>^ MODULE NUMBER SIX ^ COA ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ MODULE SIX ^ COA ^ </pattern>
+        <template><srai>^ MODULE NUMBER SIX ^ COA ^</srai></template>
+    </category>
+
+
+    <category>
+        <pattern>^ CONTENTS OF FIRST MODULE ^</pattern>
+        <template>Quantitative principles of computer design, instruction set principles, DLX architecture, fallacies and pitfalls, pipelined processor design.</template>
+    </category>
+    <category>
+        <pattern>^ COA ^ CONTENTS OF MODULE 1 ^</pattern>
+        <template><srai>^ CONTENTS OF FIRST MODULE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENTS OF MODULE 1 ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF FIRST MODULE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENTS OF MODULE ONE ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF FIRST MODULE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENT OF MODULE ONE ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF FIRST MODULE ^</srai></template>
+    </category>
+
+
+    <category>
+        <pattern>^ CONTENTS OF SECOND MODULE ^</pattern>
+        <template>Basic concept, types of data path design, design problems, control path design types, design problems, pipelining</template>
+    </category>
+    <category>
+        <pattern>^ CONTENTS OF MODULE 2 ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF SECOND MODULE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ CONTENTS OF MODULE 2 ^</pattern>
+        <template><srai>^ CONTENTS OF SECOND MODULE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENTS OF MODULE TWO ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF SECOND MODULE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENT OF MODULE TWO ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF SECOND MODULE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENT OF SECOND MODULE ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF SECOND MODULE ^</srai></template>
+    </category>
+
+    <category>
+        <pattern>^ CONTENTS OF MODULE THREE ^</pattern>
+        <template>Memory technology, memory system, cache model, shared memory, sequential and weak consistency models.</template>
+    </category>
+    <category>
+        <pattern>^ COA ^ CONTENTS OF MODULE 3 ^</pattern>
+        <template><srai>^ CONTENTS OF MODULE THREE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENTS OF MODULE 3 ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE THREE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENTS OF MODULE THREE ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE THREE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENT OF MODULE THREE ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE THREE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENT OF THREE MODULE ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE THREE ^</srai></template>
+    </category>
+
+    <category>
+        <pattern>^ CONTENTS OF MODULE FOUR ^</pattern>
+        <template>Centralized shared memory architecture, distributed shared memory architecture, synchronization, models of memory consistency, crosscutting issues.</template>
+    </category>
+    <category>
+        <pattern>^ COA ^ CONTENTS OF MODULE 4 ^</pattern>
+        <template><srai>^ CONTENTS OF MODULE FOUR ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENTS OF MODULE 4 ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE FOUR ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENTS OF MODULE FOUR ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE FOUR ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENT OF MODULE FOUR ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE FOUR ^</srai></template>
+    </category><category>
+    <pattern>^ CONTENT OF FOURTH MODULE ^ COA ^ </pattern>
+    <template><srai>^ CONTENTS OF MODULE FOUR ^</srai></template>
+</category>
+    <category>
+        <pattern>^ CONTENT OF FOURTH MODULE ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE FOUR ^</srai></template>
+    </category>
+
+    <category>
+        <pattern>^ CONTENTS OF MODULE FIVE ^</pattern>
+        <template>Communication methods, I/O and system control, parallel processing, parallel programming models like shared variable models, message passing, object oriented model, Architectural development tracks, multithreaded and dataflow tracks, program flow mechanism, system interconnects, network prosperities and routing.</template>
+    </category>
+    <category>
+        <pattern>^ CONTENT OF FIFTH MODULE ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE FIVE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ CONTENTS OF MODULE 5 ^</pattern>
+        <template><srai>^ CONTENTS OF MODULE FIVE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENTS OF MODULE 5 ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE FIVE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENTS OF MODULE FIVE ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE FIVE ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENT OF MODULE FIVE ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE FIVE ^</srai></template>
+    </category>
+
+    <category>
+        <pattern>^ CONTENTS OF MODULE SIX ^</pattern>
+        <template>Latency-hiding techniques, principles of multithreading, fine grain multicomputer, data flow and hybrid architecture.</template>
+    </category>
+    <category>
+        <pattern>^ CONTENT OF SIXTH MODULE ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE SIX ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^  CONTENTS OF MODULE 6 ^</pattern>
+        <template><srai>^ CONTENTS OF MODULE SIX^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENTS OF MODULE 6 ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE SIX^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENTS OF MODULE SIX ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE SIX ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ CONTENT OF MODULE SIX ^ COA ^ </pattern>
+        <template><srai>^ CONTENTS OF MODULE SIX ^</srai></template>
+    </category>
+
+    <category>
+        <pattern> ^ COA ^ TEACHER ^</pattern>
+        <template>Mrs. Yogita Talekar is course teacher for COA </template>
+    </category>
+    <category>
+        <pattern>^ TEACHER ^ COA ^ </pattern>
+        <template><srai>^ COA ^ TEACHER ^ </srai></template>
+    </category>
+    <category>
+        <pattern>^ COURSE TEACHER ^ COA ^ </pattern>
+        <template><srai>^ COA ^ TEACHER ^ </srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ COURSE TEACHER ^ </pattern>
+        <template><srai>^ COA ^ TEACHER ^ </srai></template>
+    </category>
+    <category>
+        <pattern>^ COA ^ COURSE FACULTY ^ </pattern>
+        <template><srai>^ COA ^ TEACHER ^ </srai></template>
+    </category>
+    <category>
+        <pattern>^ COURSE FACULTY ^ COA ^ </pattern>
+        <template><srai>^ COA ^ TEACHER ^ </srai></template>
+    </category>
+
+</aiml>

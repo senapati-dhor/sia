@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/build/intermediates/res/merged/debug/layout/about.xml",
+        "source": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/res/layout/about.xml"
+    },
+    {
+        "merged": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/build/intermediates/res/merged/debug/layout/dialog_brain_log.xml",
+        "source": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/res/layout/dialog_brain_log.xml"
+    },
+    {
+        "merged": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/build/intermediates/res/merged/debug/layout/chat_listitem_left.xml",
+        "source": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/res/layout/chat_listitem_left.xml"
+    },
+    {
+        "merged": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/build/intermediates/res/merged/debug/layout/chat_listitem_right.xml",
+        "source": "/home/sia/Desktop/SIA/SIA_FINAL_APP/app/src/main/res/layout/chat_listitem_right.xml"
+    }
+]
